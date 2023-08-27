@@ -1,0 +1,108 @@
+.pulsingButton {
+  width: 220px;
+  text-align: center;
+  white-space: nowrap;
+  display: block;
+  margin: 50px auto !important;
+  padding: 10px;
+  box-shadow: 0 0 rgb(206, 205, 205);
+  border-radius: 10px;
+  background-color: #fbfbfb;
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(.66,0,0,1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(.66,0,0,1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(.66,0,0,1);
+  animation: pulsing 1.25s infinite cubic-bezier(.66,0,0,1);
+  font-size: 22px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-decoration: none!important;
+  color: #191919!important;
+  transition: all .3s ease-in-out;
+  height: 80px;
+  width: 230px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: inline-flex;
+  
+
+}
+
+
+.pulsingButtonheader {
+  box-shadow: 0 0 #CF9A3E;
+  border-radius: 10px;
+  background-color: #000000;
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(.66,0,0,1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(.66,0,0,1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(.66,0,0,1);
+  animation: pulsing 1.25s infinite cubic-bezier(.66,0,0,1);
+  
+  text-decoration: none!important;
+ 
+  transition: all .3s ease-in-out;
+  
+
+  font-size: 21px;
+  line-height: 1em;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  border-radius: 100px;
+  text-transform: uppercase;
+  display: table;
+  margin-left: auto;
+  margin-right: 0px;
+  background-color: rgb(122, 140, 58);
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  font-family: Oswald;
+  margin-bottom: 0px;
+    text-align: center;
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 25px;
+  
+
+}
+
+
+/* Animation */
+
+@-webkit-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(207, 154, 62, 0);
+  }
+}
+
+@-moz-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(207, 154, 62, 0);
+  }
+}
+
+@-ms-keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(207, 154, 62, 0);
+  }
+}
+
+@keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(207, 154, 62, 0);
+  }
+}
+
+
+.button.block {
+  display: block;
+  width: 200px;    
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
